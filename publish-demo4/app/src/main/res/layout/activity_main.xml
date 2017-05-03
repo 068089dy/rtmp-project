@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:htext="http://schemas.android.com/tools"
+    tools:context="com.example.dy.publish_demo4.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.example.dy.publish_demo4.View.CircleImageView
+            android:id="@+id/head_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:paddingBottom="50dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/chenyifa" />
+
+        <com.hanks.htextview.HTextView
+            android:id="@+id/htext_"
+            android:padding="5dp"
+            android:text="asdasdasd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head_logo"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            htext:animateType="anvil"
+            />
+
+        <EditText
+            android:id="@+id/Edit_rtmpurl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rtmp://172.18.208.176/myapp/test?pass=password"
+            android:layout_below="@+id/htext_"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <com.example.dy.publish_demo4.View.StateButton
+        android:id="@+id/sbtn_livestart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="摄像直播"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        app:normalBackgroundColor="#FF0090"
+        app:pressedBackgroundColor="#FF84BA"
+        app:round="true"
+        app:radius="2dp"
+        app:unableBackgroundColor="@android:color/holo_red_light"/>
+    <com.example.dy.publish_demo4.View.StateButton
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="录屏直播（待）"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        app:normalBackgroundColor="#7CFC00"
+        app:pressedBackgroundColor="#7FB80E"
+        app:round="true"
+        app:radius="2dp"
+        app:unableBackgroundColor="@android:color/holo_red_light"/>
+
+</LinearLayout>
+

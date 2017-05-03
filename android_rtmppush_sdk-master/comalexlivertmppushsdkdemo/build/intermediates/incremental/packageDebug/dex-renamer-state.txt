@@ -1,0 +1,7 @@
+#Sun Apr 30 11:01:37 CST 2017
+base.0=/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/comalexlivertmppushsdkdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_179fdd9ee38979e5af9f34df0d6c030e9a73567c
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/comalexlivertmppushsdkdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ac7c1ce3752c9e48470e4771120631e5bdcab161/classes.dex
+base.1=/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/comalexlivertmppushsdkdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ac7c1ce3752c9e48470e4771120631e5bdcab161
+file.0=/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/comalexlivertmppushsdkdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_179fdd9ee38979e5af9f34df0d6c030e9a73567c/classes.dex

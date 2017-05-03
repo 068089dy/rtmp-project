@@ -1,0 +1,4 @@
+#Sat Apr 29 22:16:18 CST 2017
+base.0=/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/comalexlivertmppushsdkdemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5
+renamed.0=classes.dex
+file.0=/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/comalexlivertmppushsdkdemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex

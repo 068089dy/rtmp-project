@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/liveRtmpPushSDK/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3491863251bc30353b79e2494e658de2058a76ae">
+        <dex dex="/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/comalexlivertmppushsdkdemo/build/intermediates/pre-dexed/debug/classes_1327d144431f5404f16493dc637708f9bab3e47d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/comalexlivertmppushsdkdemo/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/comalexlivertmppushsdkdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_179fdd9ee38979e5af9f34df0d6c030e9a73567c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dy/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/comalexlivertmppushsdkdemo/build/intermediates/pre-dexed/debug/support-v4-19.1.0_a5cc4dd368f7cdf0b1c37b863df953c82ebddbc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dy/.android/build-cache/8408e9b757ad0a87b99c4294d7a29f1c6d46d7f4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/comalexlivertmppushsdkdemo/build/intermediates/pre-dexed/debug/classes_7cfaa5084276f462b021226d3aadf1af970534b1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/comalexlivertmppushsdkdemo/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d25d72d6ddcf961edd44a494d5261bc7b013870">
+        <dex dex="/home/dy/github/streaming_media_player/android_rtmppush_sdk-master/comalexlivertmppushsdkdemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ac7c1ce3752c9e48470e4771120631e5bdcab161/classes.dex" />
+    </item>
+
+</items>
