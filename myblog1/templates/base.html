@@ -1,0 +1,115 @@
+<!--base.html-->
+<!doctype html>
+<!--
+#3F51B5
+#ff3dab
+-->
+
+<html lang="en">
+<style type="text/css">
+img1{
+    border-radius: 50%;
+}
+.circular--squareP{
+    position:relative;
+    width: 70px;
+    height: 70px;
+    overflow:hidden;
+    border-radius:50%;
+    border:2px solid #ff3dab;
+}
+.circular--squareP img{
+    width:100%;
+    height:auto;
+}
+.author--head{
+    font-family: cursive;
+    font-weight:bolder;
+    font-size:150%;
+    color:#3F51B5;
+}
+.author--content{
+    font-family: cursive;
+    font-weight:bolder;
+}
+.author--loadmore{
+  color: #555;
+  font-size: 14px;
+  background: transparent;
+  border-radius: 0;
+  line-height: 2;
+}
+.btn {
+    padding: 0 10px;
+    border-width: 2px;
+    border-radius: 0;
+}
+
+
+</style>
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+
+    <title>我最喜爱的主播</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+    <link rel="stylesheet" href="http://picturebag.qiniudn.com/blog.css">
+
+</head>
+<body>
+  <!--style="background:url(https://staticlive.douyucdn.cn/upload/room_pic/8c4b32787c4958ad42427dc0e83e538e.jpg);-->
+<div id="layout" class="pure-g" >
+    <div class="sidebar pure-u-1 pure-u-md-1-4" style="background:url(https://farseerfc.me/images/avatar.jpg);">
+        <div class="header">
+            <h1 class="brand-title"><a href="/">我最喜爱的主播</a></h1>
+            <h2 class="brand-tagline" style="color:#ff3dab;">雪忆 - Snow Memory</h2>
+            <nav class="nav">
+                <ul class="nav-list">
+
+                    <li class="nav-item">
+                        <a class="button-success pure-button" style="background:#3F51B5;" href="/login">登录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button-success pure-button" style="background:#3F51B5;" href="/">注册</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            <!--{% block content %}-->
+          <div class="pure-u-1 pure-u-md-3-4">
+            <div class="circular--squareP">
+              <img  src="https://farseerfc.me/images/avatar.jpg" />
+            </div>
+            <h2 class="brand-tagline">陈一发儿</h2>
+            <p class="author--content">陈一发儿，重庆人，建筑行业CAD狗一名（貌似前两天停薪留职了），“知名”斗鱼主播，大家都亲切地称之为：发姐！有丧尸的粉丝称其为发妈妈（斗鱼TV发姐儿子遍天下）。发姐年纪未知，坊间传说85年生日。由于长相（身材）的关系，人称电竞贾玲。发姐羞涩的时候自带台湾口音，经常自称台湾人。直播房间：陈一发儿-斗鱼
+              微博：陈一发儿的微博网易云音乐（内有翻唱电台）：网易云音乐
+              发姐貌似还有一个废弃多年的知乎：陈一发儿发姐的自拍时候大概是这样的：......
+              <li class="nav-item" style="float:right;">
+                  <a class="author--loadmore button-success pure-button" style="background:#3F51B5;" href="">查看更多</a>
+              </li>
+              <div style="background:#3F51B5; width=100%;"></div>
+          </div>
+
+            <!--{% endblock %}-->
+            <div class="footer">
+                <div class="pure-menu pure-menu-horizontal pure-menu-open">
+                    <ul>
+                        <li><a href="http://andrewliu.tk/about/">About Me</a></li>
+                        <li><a href="http://twitter.com/yuilibrary/">Twitter</a></li>
+                        <li><a href="http://github.com/yahoo/pure/">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

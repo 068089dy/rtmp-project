@@ -1,0 +1,13 @@
+.img-anchor-head-div{
+  border-radius: 50%;
+  position:relative;
+  overflow:hidden;
+  width: 200px;
+  height: 200px;
+  align:middle;
+}
+.img-anchor-head-div img{
+    width:100%;
+    height:auto;
+
+}
