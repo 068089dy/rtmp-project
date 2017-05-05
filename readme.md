@@ -8,3 +8,5 @@ github上的一个推流sdk，比较复杂
 利用yasea-master写的demo
 ## 5.liveviewdemo
 直播界面
+## 6.myblog1
+django web 工程
